@@ -8,7 +8,7 @@ class EditorData
 	toggles=1033;
 	class ItemIDProvider
 	{
-		nextID=783;
+		nextID=784;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8338.6875,197.18079,7704.9897};
-		dir[]={0.36077145,-0.48204547,-0.79847354};
-		up[]={0.19848752,0.87613595,-0.43929848};
-		aside[]={-0.91132867,7.2969124e-007,-0.41176456};
+		pos[]={6738.4834,617.76093,10802.121};
+		dir[]={-0.40526286,-0.63949692,0.65337127};
+		up[]={-0.33708185,0.7687875,0.54344726};
+		aside[]={0.84983081,3.3830293e-007,0.52712286};
 	};
 };
 binarizationWanted=0;
@@ -550,7 +550,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=258;
+		items=259;
 		class Item0
 		{
 			dataType="Group";
@@ -25179,6 +25179,19 @@ class Mission
 				};
 				nAttributes=3;
 			};
+		};
+		class Item258
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={6373.0859,60.023792,11198.647};
+				angles[]={6.2751846,0,0.0032018756};
+			};
+			title="Scenic civies";
+			description="Civies that we can scatter using the garrison module in zeus";
+			id=783;
+			atlOffset=0.00074005127;
 		};
 	};
 	class Connections
